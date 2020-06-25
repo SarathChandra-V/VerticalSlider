@@ -29,10 +29,6 @@ function respo(info){
      } 
 }
     
-    // for(let i=0; i<5; i++){
-    //    var l = list(i)
-    //     $(l).attr('class','slide').appendTo('#vertical');
-    // }
 
 function list(info,i){
     const c = `<li>
@@ -46,45 +42,3 @@ return listContent;
 }
 
 
-//  function controlButtons(){
-//     const containerheight = $('.vertical-slider').height();
-//      const b = `<div class="control-buttons">
-//                     <button id="up" > < </button>
-//                     <button id="down"> > </button>         
-//                 </div>`;
-//     const Button = `${b}`;
-//     return(Button);
-//  }      
-
-//  const containerheight = $('.vertical-slider').height();
-//  const scrollHeight = containerheight/3;
- 
-//  $("#up").click(function prev(){
-//      console.log(-containerheight)
-//    var matrix = parseInt($('#slides').css('transform').split(',')[5]);
-//    console.log(matrix)
-//    if(matrix === 0){
-//    $('#slides').css("transform",`translate3d(0px,${-scrollHeight}px,0px)`);
-//    }
-//    if(matrix !== 0){
-//    $('#slides').css("transform",`translate3d(0px,${matrix-scrollHeight}px,0px)`)
-//    }
-//    if(matrix < -containerheight){
-//     $('#slides').css("transform",`translate3d(0px,${matrix}px,0px)`)
-//     }
-//  });
-
-//  $("#down").click(function next(){
-//     console.log(containerheight)
-//   var matrix = parseInt($('#slides').css('transform').split(',')[5]);
-//   console.log(matrix)
-//   if(matrix === 0){
-//   $('#slides').css("transform",`translate3d(0px,0px,0px)`);
-//   }
-//   if(-matrix !== 0){
-//   $('#slides').css("transform",`translate3d(0px,${matrix+scrollHeight}px,0px)`)
-//   }
-//   if(matrix > containerheight){
-//     $('#slides').css("transform",`translate3d(0px,0px,0px)`);
-//    }
-// });
